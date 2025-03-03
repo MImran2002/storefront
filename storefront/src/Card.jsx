@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Card.css'
 const Card = (props) => {
     const storeName = props.storeName;
     const foodType = props.type;
@@ -7,11 +7,11 @@ const Card = (props) => {
     const img = props.img
 
     return(
-        <div>
-            <img src={img}></img>
-            <h2>{storeName}</h2>
-            <h3>{foodType}</h3>
-            <button href={link}></button>
+        <div className="card">
+            <img className="img"src={img}></img>
+            <h2 className="name">{storeName}</h2>
+            <h3 className="type">{foodType}</h3>
+            <button ><a href={link}>View info</a></button>
         </div>
     )
 }

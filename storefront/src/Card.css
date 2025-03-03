@@ -1,0 +1,20 @@
+.img{
+    width:200px;
+    height:150px;
+    border-radius: 10px;;
+}
+.card{
+    width:200px;
+    height:300px;
+    background-color: rgb(128, 128, 226);
+    border-radius: 20px;;
+}
+.name{
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.type{
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
